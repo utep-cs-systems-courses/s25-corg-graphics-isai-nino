@@ -1,5 +1,5 @@
 # makefile configuration
-OBJS    = main.o
+OBJS    = main.o switches.o stateMachine.o ball.o bricks.o buzzer.o platform.o set_boundaries_s.o
 CPU     = msp430g2553
 CFLAGS  = -mmcu=${CPU} -Os -I../h
 LDFLAGS = -L../lib -L/opt/ti/msp430_gcc/include/
